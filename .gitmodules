@@ -1,3 +1,6 @@
 [submodule "roles/joalon.cockpit"]
 	path = roles/joalon.cockpit
 	url = https://github.com/joalon/joalon.cockpit
+[submodule "roles/joalon.freeipa-client"]
+	path = roles/joalon.freeipa-client
+	url = https://github.com/joalon/joalon.freeipa-client

@@ -1,0 +1,20 @@
+---
+freeipa-servers:
+  hosts:
+    ipa.home.joalon.se:
+      ansible_host: 192.168.0.125
+
+pihole:
+  hosts:
+    pihole.home.joalon.se:
+      ansible_host: 192.168.0.126
+
+k3s_masters:
+  hosts:
+    kube1.home.joalon.se:
+      ansible_host: 192.168.0.127
+
+k3s_nodes:
+  hosts:
+    kube2.home.joalon.se:
+      ansible_host: 192.168.0.128
